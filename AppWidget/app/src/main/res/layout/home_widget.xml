@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BA0B0"
+    android:padding="@dimen/widget_margin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/appwidget_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Biodata"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/appwidget_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appwidget_judul"
+            android:text="@string/appwidget_text"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+        />
+
+        <TextView
+            android:id="@+id/appwidget_ttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appwidget_nama"
+            android:text="@string/appwidget_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+        />
+
+        <TextView
+            android:id="@+id/appwidget_nohp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appwidget_ttl"
+            android:text="@string/appwidget_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/appwidget_hobi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appwidget_nohp"
+            android:text="@string/appwidget_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
